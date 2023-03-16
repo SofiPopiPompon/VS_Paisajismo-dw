@@ -1,0 +1,248 @@
+* {
+  /*reset por default*/
+  margin: 0px;
+  padding: 0px;
+}
+header {
+  /*banner de inicio*/
+  display: grid;
+  padding: 25px 50px;
+  background-color: #5ba67b;
+  width: 100%;
+  height: 140px;
+  font-family: "lora", serif;
+  grid-template-areas: "logo inicio nosotros proyectos servicios contactanos";
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 10px;
+}
+#menu-de-nav div {
+  grid-area: logo;
+}
+#menu-de-nav nav ul .inicio {
+  grid-area: inicio;
+}
+#menu-de-nav nav ul .nosotros {
+  grid-area: nosotros;
+}
+#menu-de-nav nav ul .proyectos {
+  grid-area: proyectos;
+}
+#menu-de-nav nav ul .servicios {
+  grid-area: servicios;
+}
+#menu-de-nav nav ul .contactanos {
+  grid-area: contactanos;
+}
+/*menu*/
+ul li {
+  list-style: none;
+  display: inline;
+  position: relative;
+  font-family: "Lora", serif;
+  font-size: 20px;
+  font-weight: 300px;
+  padding: 10px 10px;
+  margin: 10px 0px;
+  min-width: 170px;
+  display: inline-block;
+  text-align: center;
+}
+ul li a {
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  font-family: "Lora", serif;
+  font-size: 20px;
+}
+ul li a:hover {
+  background-color: #5ba67b;
+  color: antiquewhite;
+}
+/*submenu*/
+ul li ul {
+  display: none; /*oculto por reposo*/
+  position: absolute;
+  top: 30px;
+  right: 0px;
+}
+ul li:hover ul {
+  display: block; /*visible con el mouse hover*/
+}
+ul li ul li a {
+  font-size: 20 px;
+  font-weight: 300px;
+  text-align: left;
+  font-family: "Lora", serif;
+}
+.flex-navbar {
+  display: flex;
+  justify-content: flex-end;
+}
+/*es del index.html*/
+#carrusel-de-imagen {
+  background-image: url(../img.html/fondo-para-vs_paisajismo.png);
+  background-size: cover;
+  width: 100%;
+  height: 300;
+}
+.nosotros- {
+  text-align: left;
+  display: inline;
+  font-size: 25px;
+  width: 200px;
+  /*height: 200px;*/
+  overflow: auto;
+  font-family: "Playfair Display", serif;
+}
+.donde-nos-encontramos {
+  text-align: left;
+  display: inline;
+  font-size: 25px;
+  width: 240px;
+  height: 340px;
+  overflow: auto;
+  font-family: "Playfair Display", serif;
+}
+.mesa-exterior {
+  text-align: center;
+}
+.nuestro-trabajo {
+  text-align: right;
+  display: inline;
+  font-size: 25px;
+  width: 250px;
+  height: 340px;
+  overflow: auto;
+  font-family: "Playfair Display", serif;
+}
+#flex-inicio {
+  display: flex;
+  padding: 10px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+/*Proyectos*/
+.proyecto-hall-pilar {
+  font-family: "Playfair Display", serif;
+  font-weight: normal;
+  font-size: 25px;
+  font-weight: 200px;
+}
+.proyecto-oficina-pilar {
+  font-family: "Playfair Display", serif;
+  font-weight: normal;
+  font-size: 25px;
+  font-weight: 200px;
+}
+div section img {
+  margin: 1.5px;
+  padding: 1.5px;
+}
+/*Nosotros*/
+.sectionNosotros h5 fieldset {
+  font-size: 30px;
+  font-weight: 100x;
+}
+.sectionNosotros {
+  text-align: left;
+  display: inline-block;
+  font-size: 50px;
+  width: 340px;
+  height: 240px;
+  padding-left: 10px;
+  /*overflow: auto;*/
+  font-family: "Playfair Display", serif;
+}
+.sectionDondeNosEncontramos h5 fieldset {
+  font-size: 25px;
+  font-weight: 100x;
+}
+.sectionDondeNosEncontramos {
+  text-align: right;
+  display: inline-block;
+  font-size: 50px;
+  width: 250px;
+  height: 340px;
+  /*overflow: auto;*/
+  font-family: "Playfair Display", serif;
+}
+#divnosotros {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 5px;
+}
+.img_maceta_1 {
+  padding-top: 20px;
+}
+/*Diseño paisajismo con macetas*/
+main img {
+  margin-left: 4px;
+  margin-top: 2px;
+  margin-right: 1px;
+  margin-bottom: 2px;
+  padding: auto;
+}
+.macetas-fibrocemento {
+  margin-left: 7px;
+}
+main h3 {
+  font-family: "Playfair Display", serif;
+  margin: 7px;
+  padding: 7px;
+  text-align: center;
+  text-align: justify;
+  font-size: 25px;
+  font-weight: 400px;
+}
+/*mantenimiento de plantas*/
+.tips-cuidados_h3 {
+  font-size: 25px;
+  font-weight: 400px;
+}
+.tips-cuidados {
+  margin-left: 15px;
+  margin-right: 4px;
+}
+.tips-cuidados1 {
+  margin-left: 10px;
+  margin-right: 4px;
+  margin-bottom: 7px;
+}
+/*contactanos*/
+main form fieldset {
+  font-family: "Playfair Display", serif;
+  font-weight: 17px;
+  font-size: 19px;
+  text-align: center;
+  background-color: antiquewhite;
+}
+main form fieldset h1 {
+  text-align: left;
+  font-family: "Playfair Display", serif;
+}
+/*lo que integra al footer*/
+.pie_de_pagina {
+  background-image: url(../img.html/Tulipanes.jpeg);
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  color: antiquewhite; /*aplica para el mail*/
+  text-align: center;
+}
+.pie_de_pagina .li .a {
+  text-decoration: none;
+  color: antiquewhite; /*aplica para ig y fb*/
+  border: none;
+  font-family: "Lora", serif;
+}
+.pie_de_pagina .li {
+  list-style: none;
+  display: block;
+  font-family: "Lora", serif;
+  padding-right: 5px;
+}
+.pie_de_pagina .li .img {
+  text-align: center;
+  display: inline;
+  padding-right: 5px;
+}
