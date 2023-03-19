@@ -11,27 +11,7 @@ header {
   width: 100%;
   height: 140px;
   font-family: "lora", serif;
-  grid-template-areas: "logo inicio nosotros proyectos servicios contactanos";
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
   gap: 10px;
-}
-#menu-de-nav div {
-  grid-area: logo;
-}
-#menu-de-nav nav ul .inicio {
-  grid-area: inicio;
-}
-#menu-de-nav nav ul .nosotros {
-  grid-area: nosotros;
-}
-#menu-de-nav nav ul .proyectos {
-  grid-area: proyectos;
-}
-#menu-de-nav nav ul .servicios {
-  grid-area: servicios;
-}
-#menu-de-nav nav ul .contactanos {
-  grid-area: contactanos;
 }
 /*menu*/
 ul li {
@@ -54,16 +34,9 @@ ul li a {
   font-family: "Lora", serif;
   font-size: 20px;
 }
-ul li a:hover {
-  background-color: #5ba67b;
-  color: antiquewhite;
-}
 /*submenu*/
-ul li ul {
-  display: none; /*oculto por reposo*/
-  position: absolute;
-  top: 30px;
-  right: 0px;
+.dropdown-menu li a:hover {
+  background-color: #5ba67b;
 }
 ul li:hover ul {
   display: block; /*visible con el mouse hover*/
@@ -74,10 +47,7 @@ ul li ul li a {
   text-align: left;
   font-family: "Lora", serif;
 }
-.flex-navbar {
-  display: flex;
-  justify-content: flex-end;
-}
+
 /*es del index.html*/
 #carrusel-de-imagen {
   background-image: url(../img/fondo-para-vs_paisajismo.png);
@@ -120,9 +90,6 @@ ul li ul li a {
   padding: 10px;
   justify-content: space-evenly;
   align-items: center;
-}
-.navbar-propio {
-  display: none;
 }
 /*Proyectos*/
 .proyecto-hall-pilar {
