@@ -97,7 +97,6 @@ ul li ul li a {
 /*Proyectos*/
 .proyecto-hall-pilar h4 {
   font-family: "Playfair Display", serif;
-  font-weight: normal;
   font-size: 25px;
   font-weight: 200px;
   margin-top: 5px;
@@ -262,6 +261,40 @@ main form fieldset h1 {
   display: inline;
   padding-right: 5px;
 }
-/*navbar mobile*/
-@media screen and (min-width: 300px) and (max-width: 769) {
+/*mantenimiento de plantas*/
+@media (max-width: 768px) {
+  .proyecto-hall-pilar h4 {
+    font-size: 15px;
+    text-align: justify;
+  }
+  .img-hall {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 5px;
+  }
+  .proyecto-oficina-pilar h4 {
+    font-size: 15px;
+    text-align: justify;
+  }
+  .img-oficinas {
+    grid-template-columns: 1fr;
+  }
+  .proyecto-huerta-nordelta h4 {
+    font-size: 15px;
+    text-align: justify;
+  }
+  .img-huerta {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 5px;
+  }
+  .proyecto-paseoMendoza-momentovinito h4 {
+    font-size: 15px;
+    text-align: justify;
+  }
+  .img-paseoMendoza {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 5px;
+  }
 }
