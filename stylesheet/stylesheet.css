@@ -92,21 +92,60 @@ ul li ul li a {
   align-items: center;
 }
 /*Proyectos*/
-.proyecto-hall-pilar {
+.proyecto-hall-pilar h4 {
+  font-family: "Playfair Display", serif;
+  font-weight: normal;
+  font-size: 25px;
+  font-weight: 200px;
+  margin-top: 5px;
+}
+.img-hall {
+  display: flex;
+  justify-content: space-around;
+  column-gap: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.proyecto-oficina-pilar h4 {
   font-family: "Playfair Display", serif;
   font-weight: normal;
   font-size: 25px;
   font-weight: 200px;
 }
-.proyecto-oficina-pilar {
+.img-oficinas {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-row-gap: 10px;
+  justify-items: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.proyecto-huerta-nordelta h4 {
   font-family: "Playfair Display", serif;
   font-weight: normal;
   font-size: 25px;
   font-weight: 200px;
 }
-div section img {
-  margin: 1.5px;
-  padding: 1.5px;
+.img-huerta {
+  display: flex;
+  justify-content: space-around;
+  column-gap: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.proyecto-paseoMendoza-momentovinito h4 {
+  font-family: "Playfair Display", serif;
+  font-weight: normal;
+  font-size: 25px;
+  font-weight: 900px;
+}
+.img-paseoMendoza {
+  display: flex;
+  justify-content: space-around;
+  column-gap: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 /*Nosotros*/
 .sectionNosotros h5 fieldset {
