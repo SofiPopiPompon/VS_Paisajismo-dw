@@ -216,3 +216,9 @@ main form fieldset h1 {
   display: inline;
   padding-right: 5px;
 }
+/*navbar mobile*/
+@media screen and (min-width: 300px) and (max-width: 769) {
+  .navbar-mobile {
+    background-color: #5ba67b;
+  }
+}
