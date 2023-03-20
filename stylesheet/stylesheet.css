@@ -292,8 +292,7 @@ main form fieldset h1 {
 
   /*proyectos*/
   .proyecto-hall-pilar h4 {
-    font-size: 15px;
-    text-align: justify;
+    text-align: center;
   }
   .img-hall {
     flex-direction: column;
@@ -301,15 +300,13 @@ main form fieldset h1 {
     row-gap: 5px;
   }
   .proyecto-oficina-pilar h4 {
-    font-size: 15px;
-    text-align: justify;
+    text-align: center;
   }
   .img-oficinas {
     grid-template-columns: 1fr;
   }
   .proyecto-huerta-nordelta h4 {
-    font-size: 15px;
-    text-align: justify;
+    text-align: center;
   }
   .img-huerta {
     flex-direction: column;
@@ -317,8 +314,7 @@ main form fieldset h1 {
     row-gap: 5px;
   }
   .proyecto-paseoMendoza-momentovinito h4 {
-    font-size: 15px;
-    text-align: justify;
+    text-align: center;
   }
   .img-paseoMendoza {
     flex-direction: column;
