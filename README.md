@@ -5,7 +5,7 @@ Funcionalidad de la pagina
 _Te muestra un poco como trabajamos, te contamos un poco sobre nosotros y nuestros proyectos. Vas a poder ver los proyectos realizados, contiene algunos tips para cuidar mejor de tus plantas y que animalitos atre la flora. Encontraras un formulario de contacto para poder comunicarte con nosotros, y tambien nuestro whastapp e instagram_
 
 Diseño Responsive:
-_desktop_ +
+_desktop_
 _mobile_
 
 Realizado con:
