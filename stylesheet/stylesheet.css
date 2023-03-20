@@ -50,6 +50,9 @@ ul li ul li a {
   text-align: left;
   font-family: "Lora", serif;
 }
+.bg-secondary-subtle {
+  background-color: #5ba67b !important;
+}
 
 /*es del index.html*/
 #carrusel-de-imagen {
@@ -57,9 +60,6 @@ ul li ul li a {
   background-size: cover;
   width: 100%;
   height: 300;
-}
-.bg-secondary-subtle {
-  background-color: #5ba67b !important;
 }
 .nosotros- {
   text-align: left;
@@ -276,7 +276,13 @@ main form fieldset h1 {
     margin: 0px;
     padding: 0px;
   }
+  /*inicio-index*/
+  #flex-inicio {
+    flex-direction: column;
+  }
 
+  .donde-nos-encontramos
+  .nuestro-trabajo
   /*nosotros*/
   .sectionNosotros h5 fieldset {
     font-size: 15px;
