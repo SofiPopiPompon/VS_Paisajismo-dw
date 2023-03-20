@@ -260,11 +260,15 @@ main form fieldset h1 {
   display: block;
   font-family: "Lora", serif;
   padding-right: 5px;
+  margin-bottom: 0%;
 }
 .pie_de_pagina .li .img {
   text-align: center;
   display: inline;
   padding-right: 5px;
+}
+.pie_de_pagina ul {
+  margin-bottom: 0%;
 }
 
 @media (max-width: 768px) {
