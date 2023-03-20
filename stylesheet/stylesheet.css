@@ -218,7 +218,6 @@ main h3 {
   display: flex;
   justify-content: space-around;
   margin-bottom: 10px;
-  height: 330px;
 }
 .img-tips-cuidados {
   display: flex;
@@ -269,12 +268,6 @@ main form fieldset h1 {
 }
 
 @media (max-width: 768px) {
-  * {
-    /*reset por default*/
-    margin: 0px;
-    padding: 0px;
-  }
-
   /*inicio-index*/
   #flex-inicio {
     flex-direction: column;
@@ -344,5 +337,29 @@ main form fieldset h1 {
   /*diseño de paisajismo con macetas*/
   .img_disenio_paisajismo_con_macetas {
     grid-template-columns: auto;
+  }
+  /*mantenimiento de plantas*/
+  .img-flora {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 5px;
+  }
+  .img-tips-cuidados {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 5px;
+  }
+
+  /*footer*/
+  .pie_de_pagina {
+    background-image: url(../img/macetas-flores.jpeg);
+    width: 100%;
+  }
+  .pie_de_pagina .li {
+    text-align: center;
+    padding-right: 0px;
+  }
+  .pie_de_pagina .li-mail {
+    font-size: 19px;
   }
 }
