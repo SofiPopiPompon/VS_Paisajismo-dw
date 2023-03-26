@@ -55,11 +55,8 @@ ul li ul li a {
 }
 
 /*es del index.html*/
-#carrusel-de-imagen {
-  background-image: url(../img/fondo-para-vs_paisajismo.png);
-  background-size: cover;
-  width: 100%;
-  height: 300;
+.carrusel-de-imagen {
+  display: none;
 }
 .nosotros- {
   text-align: left;
@@ -240,7 +237,7 @@ main form fieldset h1 {
   font-family: "Playfair Display", serif;
 }
 
-/*lo que integra al footer*/
+/*footer*/
 .pie_de_pagina {
   background-image: url(../img/Tulipanes.jpeg);
   background-size: cover;
@@ -275,6 +272,12 @@ main form fieldset h1 {
   /*inicio-index*/
   #flex-inicio {
     flex-direction: column;
+  }
+  .carrusel-de-imagen {
+    display: block;
+  }
+  .carrusel-de-imagen-2 {
+    display: none;
   }
 
   /*nosotros*/
