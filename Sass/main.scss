@@ -1,4 +1,4 @@
-/*google font*/
+//import//
 @import "index";
 @import "nosotros";
 @import "proyectos";
@@ -6,29 +6,34 @@
 @import "mantenimiento de plantas";
 @import "contactanos";
 
+//google font//
 @import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
 
+//variables//
+$txt: "Lora", serif;
+$txt-secundario: "Playfair Display", serif;
+$bg-color: #5ba67b;
 /*reset por default*/
 * {
   margin: 0px;
   padding: 0px;
 }
 
-/*nesting*/
+//nesting//
 /*banner de inicio*/
 header {
   display: grid;
   padding: 25px 50px;
-  background-color: #5ba67b;
+  background-color: $bg-color;
   width: 100%;
   height: 140px;
-  font-family: "lora", serif;
+  font-family: $txt;
   gap: 10px;
   ul li {
     list-style: none;
     display: inline;
     position: relative;
-    font-family: "Lora", serif;
+    font-family: $txt;
     font-size: 20px;
     font-weight: 300px;
     padding: 10px 10px;
@@ -38,17 +43,17 @@ header {
     text-align: center;
   }
   .bg-secondary-subtle {
-    background-color: #5ba67b !important;
+    background-color: $bg-color !important;
   }
   a {
     text-decoration: none;
     color: black;
     display: inline-block;
-    font-family: "Lora", serif;
+    font-family: $txt;
     font-size: 20px;
   }
   .dropdown-menu li a:hover {
-    background-color: #5ba67b;
+    background-color: $bg-color;
   }
   ul li:hover ul {
     display: block; /*visible con el mouse hover*/
@@ -57,10 +62,10 @@ header {
     font-size: 20 px;
     font-weight: 300px;
     text-align: left;
-    font-family: "Lora", serif;
+    font-family: $txt;
   }
 }
-/*nesting*/
+//nesting//
 /*footer*/
 .pie_de_pagina {
   background-image: url(../img/Tulipanes.jpeg);
@@ -73,7 +78,7 @@ header {
   .li {
     list-style: none;
     display: block;
-    font-family: "Lora", serif;
+    font-family: $txt;
     padding-right: 5px;
     margin-bottom: 0%;
   }
@@ -87,7 +92,7 @@ header {
     color: antiquewhite; /*aplica para ig y fb*/
     font-size: 20px;
     border: none;
-    font-family: "Lora", serif;
+    font-family: $txt;
   }
 }
 .pie_de_pagina ul {
@@ -165,6 +170,7 @@ header {
   .img_disenio_paisajismo_con_macetas {
     grid-template-columns: auto;
   }
+
   /*mantenimiento de plantas*/
   .img-flora {
     flex-direction: column;

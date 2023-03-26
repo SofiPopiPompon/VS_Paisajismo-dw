@@ -1,3 +1,4 @@
+/*nesting*/
 #divnosotros {
   display: flex;
   justify-content: space-evenly;
@@ -9,7 +10,7 @@
     width: 340px;
     height: 240px;
     padding-left: 10px;
-    font-family: "Playfair Display", serif;
+    font-family: $txt-secundario;
   }
   h5 {
     font-size: 30px;
@@ -25,7 +26,7 @@
     width: 250px;
     height: 340px;
     /*overflow: auto;*/
-    font-family: "Playfair Display", serif;
+    font-family: $txt-secundario;
   }
   h5 {
     font-size: 25px;
