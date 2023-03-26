@@ -43,12 +43,12 @@
   font-family: "Playfair Display", serif;
 }
 
-.sectionNosotros h5 {
-  font-size: 30px;
-  font-weight: 100x;
+#divnosotros {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 5px;
 }
-
-.sectionNosotros {
+#divnosotros .sectionNosotros {
   text-align: left;
   display: inline-block;
   font-size: 50px;
@@ -57,13 +57,14 @@
   padding-left: 10px;
   font-family: "Playfair Display", serif;
 }
-
-.sectionDondeNosEncontramos h5 {
-  font-size: 25px;
+#divnosotros h5 {
+  font-size: 30px;
   font-weight: 100x;
 }
-
-.sectionDondeNosEncontramos {
+#divnosotros .img_maceta_1 {
+  padding-top: 20px;
+}
+#divnosotros .sectionDondeNosEncontramos {
   text-align: right;
   display: inline-block;
   font-size: 50px;
@@ -72,15 +73,9 @@
   /*overflow: auto;*/
   font-family: "Playfair Display", serif;
 }
-
-#divnosotros {
-  display: flex;
-  justify-content: space-evenly;
-  gap: 5px;
-}
-
-.img_maceta_1 {
-  padding-top: 20px;
+#divnosotros h5 {
+  font-size: 25px;
+  font-weight: 100x;
 }
 
 .proyecto-hall-pilar h4 {
