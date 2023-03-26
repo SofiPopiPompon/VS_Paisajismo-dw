@@ -1,0 +1,40 @@
+.carrusel-de-imagen {
+  display: none;
+}
+/*con nesting*/
+#flex-inicio {
+  display: flex;
+  padding: 10px;
+  justify-content: space-evenly;
+  align-items: center;
+  & .nosotros- {
+    text-align: left;
+    display: inline;
+    font-size: 25px;
+    width: 200px;
+    /*height: 200px;*/
+    overflow: auto;
+    font-family: "Playfair Display", serif;
+  }
+  .donde-nos-encontramos {
+    text-align: left;
+    display: inline;
+    font-size: 25px;
+    width: 240px;
+    height: 340px;
+    overflow: auto;
+    font-family: "Playfair Display", serif;
+  }
+  .mesa-exterior {
+    text-align: center;
+  }
+  .nuestro-trabajo {
+    text-align: right;
+    display: inline;
+    font-size: 25px;
+    width: 250px;
+    height: 340px;
+    overflow: auto;
+    font-family: "Playfair Display", serif;
+  }
+}

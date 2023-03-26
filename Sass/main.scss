@@ -1,9 +1,20 @@
+/*google font*/
+@import "index";
+@import "nosotros";
+@import "proyectos";
+@import "Diseño paisajismo con macetas";
+@import "mantenimiento de plantas";
+@import "contactanos";
+
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+
 /*reset por default*/
 * {
   margin: 0px;
   padding: 0px;
 }
 
+/*nesting*/
 /*banner de inicio*/
 header {
   display: grid;
@@ -13,256 +24,71 @@ header {
   height: 140px;
   font-family: "lora", serif;
   gap: 10px;
+  ul li {
+    list-style: none;
+    display: inline;
+    position: relative;
+    font-family: "Lora", serif;
+    font-size: 20px;
+    font-weight: 300px;
+    padding: 10px 10px;
+    margin: 10px 0px;
+    min-width: 170px;
+    display: inline-block;
+    text-align: center;
+  }
+  .bg-secondary-subtle {
+    background-color: #5ba67b !important;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    font-family: "Lora", serif;
+    font-size: 20px;
+  }
+  .dropdown-menu li a:hover {
+    background-color: #5ba67b;
+  }
+  ul li:hover ul {
+    display: block; /*visible con el mouse hover*/
+  }
+  ul li a {
+    font-size: 20 px;
+    font-weight: 300px;
+    text-align: left;
+    font-family: "Lora", serif;
+  }
 }
-
-/*menu*/
-ul li {
-  list-style: none;
-  display: inline;
-  position: relative;
-  font-family: "Lora", serif;
-  font-size: 20px;
-  font-weight: 300px;
-  padding: 10px 10px;
-  margin: 10px 0px;
-  min-width: 170px;
-  display: inline-block;
-  text-align: center;
-}
-ul li a {
-  text-decoration: none;
-  color: black;
-  display: inline-block;
-  font-family: "Lora", serif;
-  font-size: 20px;
-}
-
-/*submenu*/
-.dropdown-menu li a:hover {
-  background-color: #5ba67b;
-}
-ul li:hover ul {
-  display: block; /*visible con el mouse hover*/
-}
-ul li ul li a {
-  font-size: 20 px;
-  font-weight: 300px;
-  text-align: left;
-  font-family: "Lora", serif;
-}
-.bg-secondary-subtle {
-  background-color: #5ba67b !important;
-}
-
-/*es del index.html*/
-.carrusel-de-imagen {
-  display: none;
-}
-.nosotros- {
-  text-align: left;
-  display: inline;
-  font-size: 25px;
-  width: 200px;
-  /*height: 200px;*/
-  overflow: auto;
-  font-family: "Playfair Display", serif;
-}
-.donde-nos-encontramos {
-  text-align: left;
-  display: inline;
-  font-size: 25px;
-  width: 240px;
-  height: 340px;
-  overflow: auto;
-  font-family: "Playfair Display", serif;
-}
-.mesa-exterior {
-  text-align: center;
-}
-.nuestro-trabajo {
-  text-align: right;
-  display: inline;
-  font-size: 25px;
-  width: 250px;
-  height: 340px;
-  overflow: auto;
-  font-family: "Playfair Display", serif;
-}
-#flex-inicio {
-  display: flex;
-  padding: 10px;
-  justify-content: space-evenly;
-  align-items: center;
-}
-
-/*Proyectos*/
-.proyecto-hall-pilar h4 {
-  font-family: "Playfair Display", serif;
-  font-size: 25px;
-  font-weight: 200px;
-  margin-top: 5px;
-}
-.img-hall {
-  display: flex;
-  justify-content: space-around;
-  column-gap: 10px;
-  margin-bottom: 10px;
-  margin-top: 10px;
-}
-.proyecto-oficina-pilar h4 {
-  font-family: "Playfair Display", serif;
-  font-weight: normal;
-  font-size: 25px;
-  font-weight: 200px;
-}
-.img-oficinas {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  grid-row-gap: 10px;
-  justify-items: center;
-  margin-bottom: 10px;
-  margin-top: 10px;
-}
-.proyecto-huerta-nordelta h4 {
-  font-family: "Playfair Display", serif;
-  font-weight: normal;
-  font-size: 25px;
-  font-weight: 200px;
-}
-.img-huerta {
-  display: flex;
-  justify-content: space-around;
-  column-gap: 10px;
-  margin-bottom: 10px;
-  margin-top: 10px;
-}
-.proyecto-paseoMendoza-momentovinito h4 {
-  font-family: "Playfair Display", serif;
-  font-weight: normal;
-  font-size: 25px;
-  font-weight: 900px;
-}
-.img-paseoMendoza {
-  display: flex;
-  justify-content: space-around;
-  column-gap: 10px;
-  margin-bottom: 10px;
-  margin-top: 10px;
-}
-
-/*Nosotros*/
-.sectionNosotros h5 {
-  font-size: 30px;
-  font-weight: 100x;
-}
-.sectionNosotros {
-  text-align: left;
-  display: inline-block;
-  font-size: 50px;
-  width: 340px;
-  height: 240px;
-  padding-left: 10px;
-  font-family: "Playfair Display", serif;
-}
-.sectionDondeNosEncontramos h5 {
-  font-size: 25px;
-  font-weight: 100x;
-}
-.sectionDondeNosEncontramos {
-  text-align: right;
-  display: inline-block;
-  font-size: 50px;
-  width: 250px;
-  height: 340px;
-  /*overflow: auto;*/
-  font-family: "Playfair Display", serif;
-}
-#divnosotros {
-  display: flex;
-  justify-content: space-evenly;
-  gap: 5px;
-}
-.img_maceta_1 {
-  padding-top: 20px;
-}
-
-/*Diseño paisajismo con macetas*/
-.img_disenio_paisajismo_con_macetas {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
-  grid-row-gap: 10px;
-  justify-items: center;
-  margin-bottom: 10px;
-}
-main h3 {
-  font-family: "Playfair Display", serif;
-  margin: 7px;
-  padding: 7px;
-  text-align: center;
-  text-align: justify;
-  font-size: 25px;
-  font-weight: 400px;
-}
-
-/*mantenimiento de plantas*/
-.tips-cuidados_h3 {
-  font-size: 25px;
-  font-weight: 400px;
-}
-.img-flora {
-  display: flex;
-  justify-content: space-around;
-  margin-bottom: 10px;
-}
-.img-tips-cuidados {
-  display: flex;
-  justify-content: space-evenly;
-  column-gap: 10px;
-  margin-bottom: 10px;
-  margin-top: 10px;
-}
-
-/*contactanos*/
-main form fieldset {
-  font-family: "Playfair Display", serif;
-  font-weight: 17px;
-  font-size: 19px;
-  text-align: center;
-  background-color: antiquewhite;
-}
-main form fieldset h1 {
-  text-align: left;
-  font-family: "Playfair Display", serif;
-}
-
+/*nesting*/
 /*footer*/
 .pie_de_pagina {
   background-image: url(../img/Tulipanes.jpeg);
   background-size: cover;
   width: 100%;
   height: auto;
+  font-size: 20px;
   color: antiquewhite; /*aplica para el mail*/
   text-align: center;
-}
-.pie_de_pagina .li .a {
-  text-decoration: none;
-  color: antiquewhite; /*aplica para ig y fb*/
-  border: none;
-  font-family: "Lora", serif;
-}
-.pie_de_pagina .li {
-  list-style: none;
-  display: block;
-  font-family: "Lora", serif;
-  padding-right: 5px;
-  margin-bottom: 0%;
-}
-.pie_de_pagina .li .img {
-  text-align: center;
-  display: inline;
-  padding-right: 5px;
+  .li {
+    list-style: none;
+    display: block;
+    font-family: "Lora", serif;
+    padding-right: 5px;
+    margin-bottom: 0%;
+  }
+  .img {
+    text-align: center;
+    display: inline;
+    padding-right: 5px;
+  }
+  .a {
+    text-decoration: none;
+    color: antiquewhite; /*aplica para ig y fb*/
+    font-size: 20px;
+    border: none;
+    font-family: "Lora", serif;
+  }
 }
 .pie_de_pagina ul {
   margin-bottom: 0%;
