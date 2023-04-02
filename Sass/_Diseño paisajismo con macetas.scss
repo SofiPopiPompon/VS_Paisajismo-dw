@@ -7,12 +7,10 @@
   justify-items: center;
   margin-bottom: 10px;
 }
-main h3 {
-  font-family: $txt-secundario;
-  margin: 7px;
-  padding: 7px;
-  text-align: center;
-  text-align: justify;
-  font-size: 25px;
-  font-weight: 400px;
+main {
+  .h1 {
+    font-family: "Lora";
+    font-size: 25px;
+    text-align: center;
+  }
 }
