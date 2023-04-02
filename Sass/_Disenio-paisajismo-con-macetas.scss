@@ -6,11 +6,11 @@
   grid-row-gap: 10px;
   justify-items: center;
   margin-bottom: 10px;
+  background-color: rgb(243, 219, 182);
 }
 main {
   .h1 {
-    font-family: "Lora";
-    font-size: 25px;
-    text-align: center;
+    @include h1;
+    padding-bottom: 8px;
   }
 }

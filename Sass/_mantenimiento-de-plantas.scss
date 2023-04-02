@@ -1,8 +1,16 @@
 /*aplique variables*/
+div {
+  .h1-mantenimiento {
+    @include h1;
+    margin-bottom: 2%;
+  }
+}
+
 .tips-cuidados_h3 {
-  font-size: 25px;
+  font-size: 28px;
   font-weight: 400px;
-  font-family: $txt-secundario;
+  text-align: center;
+  font-family: "EB Garamond", serif;
 }
 .img-flora {
   display: flex;

@@ -1,10 +1,16 @@
 @charset "UTF-8";
-
-/*google font*/
 @import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap");
 .carrusel-de-imagen {
   display: none;
+}
+
+div .h1-index {
+  font-family: "EB Garamond", serif;
+  text-align: center;
+  font-weight: 200;
+  background-color: rgb(243, 219, 182);
+  margin-bottom: 0%;
 }
 
 /*con nesting*/
@@ -21,7 +27,7 @@
   width: 200px;
   /*height: 200px;*/
   overflow: auto;
-  font-family: "Playfair Display", serif;
+  font-family: "EB Garamond", serif;
 }
 #flex-inicio .donde-nos-encontramos {
   text-align: left;
@@ -30,7 +36,7 @@
   width: 240px;
   height: 340px;
   overflow: auto;
-  font-family: "Playfair Display", serif;
+  font-family: "EB Garamond", serif;
 }
 #flex-inicio .mesa-exterior {
   text-align: center;
@@ -42,10 +48,18 @@
   width: 250px;
   height: 340px;
   overflow: auto;
-  font-family: "Playfair Display", serif;
+  font-family: "EB Garamond", serif;
 }
 
 /*nesting*/
+div .h1-nosotros {
+  font-family: "EB Garamond", serif;
+  text-align: center;
+  font-weight: 200;
+  background-color: rgb(243, 219, 182);
+  margin-bottom: 0%;
+}
+
 #divnosotros {
   display: flex;
   justify-content: space-evenly;
@@ -58,7 +72,7 @@
   width: 340px;
   height: 240px;
   padding-left: 10px;
-  font-family: "Playfair Display", serif;
+  font-family: "EB Garamond", serif;
 }
 #divnosotros h5 {
   font-size: 30px;
@@ -74,7 +88,7 @@
   width: 250px;
   height: 340px;
   /*overflow: auto;*/
-  font-family: "Playfair Display", serif;
+  font-family: "EB Garamond", serif;
 }
 #divnosotros h5 {
   font-size: 25px;
@@ -82,9 +96,22 @@
 }
 
 /*aplique mixin*/
+/*h1*/
+div .h1-proyectos {
+  font-family: "EB Garamond", serif;
+  text-align: center;
+  font-weight: 200;
+  background-color: rgb(243, 219, 182);
+  margin-bottom: 0%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+/*proyecto-hall*/
 .proyecto-hall-pilar h4 {
-  font-family: "Playfair Display", serif;
-  font-size: 25px;
+  font-family: "EB Garamond", serif;
+  text-align: center;
+  font-size: 30px;
   font-weight: 200px;
   margin-top: 5px;
 }
@@ -93,14 +120,16 @@
   display: flex;
   justify-content: space-around;
   -moz-column-gap: 10px;
-  column-gap: 10px;
+       column-gap: 10px;
   margin-bottom: 10px;
   margin-top: 10px;
 }
 
+/*proyecto-oficina*/
 .proyecto-oficina-pilar h4 {
-  font-family: "Playfair Display", serif;
-  font-size: 25px;
+  font-family: "EB Garamond", serif;
+  text-align: center;
+  font-size: 30px;
   font-weight: 200px;
   margin-top: 5px;
 }
@@ -115,9 +144,11 @@
   margin-top: 10px;
 }
 
+/*proyecto-huerta-nordelta*/
 .proyecto-huerta-nordelta h4 {
-  font-family: "Playfair Display", serif;
-  font-size: 25px;
+  font-family: "EB Garamond", serif;
+  text-align: center;
+  font-size: 30px;
   font-weight: 200px;
   margin-top: 5px;
   font-weight: 900px;
@@ -127,14 +158,16 @@
   display: flex;
   justify-content: space-around;
   -moz-column-gap: 10px;
-  column-gap: 10px;
+       column-gap: 10px;
   margin-bottom: 10px;
   margin-top: 10px;
 }
 
+/*proyecto-paseoMendoza*/
 .proyecto-paseoMendoza-momentovinito h4 {
-  font-family: "Playfair Display", serif;
-  font-size: 25px;
+  font-family: "EB Garamond", serif;
+  text-align: center;
+  font-size: 30px;
   font-weight: 200px;
   margin-top: 5px;
   font-weight: 900px;
@@ -144,11 +177,12 @@
   display: flex;
   justify-content: space-around;
   -moz-column-gap: 10px;
-  column-gap: 10px;
+       column-gap: 10px;
   margin-bottom: 10px;
   margin-top: 10px;
 }
 
+/*solo se pudo aplicar variables*/
 .img_disenio_paisajismo_con_macetas {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -156,21 +190,33 @@
   grid-row-gap: 10px;
   justify-items: center;
   margin-bottom: 10px;
+  background-color: rgb(243, 219, 182);
 }
 
-main h3 {
-  font-family: "Playfair Display", serif;
-  margin: 7px;
-  padding: 7px;
+main .h1 {
+  font-family: "EB Garamond", serif;
   text-align: center;
-  text-align: justify;
-  font-size: 25px;
-  font-weight: 400px;
+  font-weight: 200;
+  background-color: rgb(243, 219, 182);
+  margin-bottom: 0%;
+  padding-bottom: 8px;
+}
+
+/*aplique variables*/
+div .h1-mantenimiento {
+  font-family: "EB Garamond", serif;
+  text-align: center;
+  font-weight: 200;
+  background-color: rgb(243, 219, 182);
+  margin-bottom: 0%;
+  margin-bottom: 2%;
 }
 
 .tips-cuidados_h3 {
-  font-size: 25px;
+  font-size: 28px;
   font-weight: 400px;
+  text-align: center;
+  font-family: "EB Garamond", serif;
 }
 
 .img-flora {
@@ -183,14 +229,14 @@ main h3 {
   display: flex;
   justify-content: space-evenly;
   -moz-column-gap: 10px;
-  column-gap: 10px;
+       column-gap: 10px;
   margin-bottom: 10px;
   margin-top: 10px;
 }
 
 /*nesting*/
 main form fieldset {
-  font-family: "Playfair Display", serif;
+  font-family: "EB Garamond", serif;
   font-weight: 17px;
   font-size: 19px;
   text-align: center;
@@ -198,13 +244,26 @@ main form fieldset {
 }
 main form fieldset h1 {
   text-align: left;
-  font-family: "Playfair Display", serif;
+  font-family: "EB Garamond", serif;
 }
 
 /*reset por default*/
 * {
   margin: 0px;
   padding: 0px;
+}
+
+body {
+  margin: 0;
+  /*font-family: var(--bs-body-font-family);*/
+  font-size: var(--bs-body-font-size);
+  font-weight: var(--bs-body-font-weight);
+  line-height: var(--bs-body-line-height);
+  color: var(--bs-body-color);
+  text-align: var(--bs-body-text-align);
+  background-color: var(--bs-body-bg);
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
 }
 
 /*banner de inicio*/
@@ -377,5 +436,4 @@ header ul li a {
   .pie_de_pagina .li-mail {
     font-size: 19px;
   }
-}
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */

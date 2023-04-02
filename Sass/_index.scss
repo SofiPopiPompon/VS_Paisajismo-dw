@@ -1,7 +1,19 @@
+@mixin h1 {
+  font-family: "EB Garamond", serif;
+  text-align: center;
+  font-weight: 200;
+  background-color: rgb(243, 219, 182);
+  margin-bottom: 0%;
+}
+
 .carrusel-de-imagen {
   display: none;
 }
-
+div {
+  .h1-index {
+    @include h1;
+  }
+}
 /*con nesting*/
 #flex-inicio {
   display: flex;
@@ -15,7 +27,7 @@
     width: 200px;
     /*height: 200px;*/
     overflow: auto;
-    font-family: $txt-secundario;
+    font-family: "EB Garamond", serif;
   }
   .donde-nos-encontramos {
     text-align: left;
@@ -24,7 +36,7 @@
     width: 240px;
     height: 340px;
     overflow: auto;
-    font-family: $txt-secundario;
+    font-family: "EB Garamond", serif;
   }
   .mesa-exterior {
     text-align: center;
@@ -36,6 +48,6 @@
     width: 250px;
     height: 340px;
     overflow: auto;
-    font-family: $txt-secundario;
+    font-family: "EB Garamond", serif;
   }
 }

@@ -2,21 +2,27 @@
 @import "index";
 @import "nosotros";
 @import "proyectos";
-@import "Diseño paisajismo con macetas";
-@import "mantenimiento de plantas";
+@import "Disenio-paisajismo-con-macetas";
+@import "mantenimiento-de-plantas";
 @import "contactanos";
-
-//google font//
-@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap");
-//variables//
-$txt: "Lora", serif;
-$txt-secundario: "EB Garamond", serif;
-$bg-color: #5ba67b;
+@import "variables";
 /*reset por default*/
 * {
   margin: 0px;
   padding: 0px;
+}
+
+body {
+  margin: 0;
+  /*font-family: var(--bs-body-font-family);*/
+  font-size: var(--bs-body-font-size);
+  font-weight: var(--bs-body-font-weight);
+  line-height: var(--bs-body-line-height);
+  color: var(--bs-body-color);
+  text-align: var(--bs-body-text-align);
+  background-color: var(--bs-body-bg);
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
 }
 
 //nesting//

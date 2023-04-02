@@ -1,4 +1,9 @@
 /*nesting*/
+div {
+  .h1-nosotros {
+    @include h1;
+  }
+}
 #divnosotros {
   display: flex;
   justify-content: space-evenly;
@@ -10,7 +15,7 @@
     width: 340px;
     height: 240px;
     padding-left: 10px;
-    font-family: $txt-secundario;
+    font-family: "EB Garamond", serif;
   }
   h5 {
     font-size: 30px;
@@ -26,7 +31,7 @@
     width: 250px;
     height: 340px;
     /*overflow: auto;*/
-    font-family: $txt-secundario;
+    font-family: "EB Garamond", serif;
   }
   h5 {
     font-size: 25px;
