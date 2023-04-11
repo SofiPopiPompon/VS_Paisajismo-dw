@@ -6,4 +6,9 @@ $txt: "Lora", serif;
 $tipografia: "EB Garamond", serif;
 $bg-color: #5ba67b;
 $bg-h1: rgb(243, 219, 182);
-$gradiente: linear-gradient (#5f85bf, #1b62cf, #094093);
+$gradiente: radial-gradient(
+  circle,
+  rgba(235, 158, 192, 1) 0%,
+  rgba(247, 178, 202, 1) 50%,
+  rgba(242, 205, 242, 1) 100%
+);

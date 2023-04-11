@@ -4,7 +4,12 @@ main form fieldset {
   font-weight: 17px;
   font-size: 19px;
   text-align: center;
-  background-color: antiquewhite;
+  background: radial-gradient(
+    circle,
+    rgba(235, 158, 192, 1) 0%,
+    rgba(247, 178, 202, 1) 50%,
+    rgba(242, 205, 242, 1) 100%
+  );
   h1 {
     text-align: left;
     font-family: "EB Garamond", serif;

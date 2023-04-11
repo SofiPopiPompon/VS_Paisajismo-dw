@@ -11,6 +11,7 @@ div .h1-index {
   font-weight: 200;
   background-color: rgb(243, 219, 182);
   margin-bottom: 0%;
+  background: radial-gradient(circle, rgb(235, 158, 192) 0%, rgb(247, 178, 202) 50%, rgb(242, 205, 242) 100%);
 }
 
 /*con nesting*/
@@ -19,6 +20,7 @@ div .h1-index {
   padding: 10px;
   justify-content: space-evenly;
   align-items: center;
+  background: radial-gradient(circle, rgb(235, 158, 192) 0%, rgb(247, 178, 202) 50%, rgb(242, 205, 242) 100%);
 }
 #flex-inicio .nosotros- {
   text-align: left;
@@ -226,10 +228,6 @@ div .h1-mantenimiento {
        column-gap: 10px;
   margin-bottom: 10px;
   margin-top: 10px;
-  transition: 0.3s ease all;
-}
-.img-tips-cuidados:hover {
-  transform: 1.08;
 }
 
 .img-flora {
@@ -244,7 +242,7 @@ main form fieldset {
   font-weight: 17px;
   font-size: 19px;
   text-align: center;
-  background-color: antiquewhite;
+  background: radial-gradient(circle, rgb(235, 158, 192) 0%, rgb(247, 178, 202) 50%, rgb(242, 205, 242) 100%);
 }
 main form fieldset h1 {
   text-align: left;
