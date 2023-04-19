@@ -105,7 +105,8 @@ header {
   margin-bottom: 0%;
 }
 
-@media (max-width: 768px) {
+/*mobile*/
+@media (max-width: 557px) {
   /*inicio-index*/
   #flex-inicio {
     flex-direction: column;
@@ -176,6 +177,108 @@ header {
   .img_disenio_paisajismo_con_macetas {
     grid-template-columns: auto;
   }
+
+  /*mantenimiento de plantas*/
+  .img-flora {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 5px;
+  }
+  .img-tips-cuidados {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 5px;
+  }
+
+  /*footer*/
+  .pie_de_pagina {
+    background-image: url(../img/macetas-flores.jpeg);
+    width: 100%;
+  }
+  .pie_de_pagina .li {
+    text-align: center;
+    padding-right: 0px;
+  }
+  .pie_de_pagina .li-mail {
+    font-size: 19px;
+  }
+}
+
+/*tablet*/
+@media (max-width: 768px) {
+  /*inicio-index*/
+  #flex-inicio {
+    flex-direction: column;
+  }
+  .carrusel-de-imagen {
+    display: block;
+  }
+  .carrusel-de-imagen-2 {
+    display: none;
+  }
+
+  /*nosotros*/
+  .sectionNosotros h5 fieldset {
+    text-align: center;
+  }
+  .sectionDondeNosEncontramos h5 fieldset {
+    text-align: center;
+  }
+  #divnosotros {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .img_maceta_1 {
+    align-content: center;
+    top: 10px;
+  }
+
+  /*proyectos*/
+  .proyecto-hall-pilar h4 {
+    text-align: center;
+  }
+  .img-hall {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 5px;
+  }
+  .proyecto-oficina-pilar h4 {
+    text-align: center;
+  }
+  .img-oficinas {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-row-gap: 10px;
+    justify-items: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  .proyecto-huerta-nordelta h4 {
+    text-align: center;
+  }
+  .img-huerta {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 5px;
+  }
+  .proyecto-paseoMendoza-momentovinito h4 {
+    text-align: center;
+  }
+  .img-paseoMendoza {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 5px;
+  }
+
+  /*contactanos*/
+  .Formulario_de_contacto {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /*diseño de paisajismo con macetas*/
 
   /*mantenimiento de plantas*/
   .img-flora {
